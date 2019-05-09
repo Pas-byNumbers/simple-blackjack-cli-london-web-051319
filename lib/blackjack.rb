@@ -28,16 +28,18 @@ end
 
 def initial_round
   # code #initial_round here
-  sum = deal_card + deal_card
-  display_card_total(sum)
-  return sum
+  deal_card
+  deal_card
+  display_card_total(card_total = deal_card + deal_card)
+  return card_total
   
 end
 
 def hit?
   # code hit? here
   prompt_user
- 
+  get_user_input
+  break if get_user_input == "s"
 end
   
   
