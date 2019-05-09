@@ -53,7 +53,7 @@ end
 def invalid_command
   # code invalid_command here
   puts "That is not a valid command, try again"
-  hit?
+  hit?(card_total)
 end
 
 #####################################################
@@ -65,8 +65,8 @@ def runner
   welcome
   card_total = initial_round
   until card_total > 21
-  hit?
-  display_card_total
+  hit?(card_total)
+  display_card_total(card_total)
 end
 end_game
   
