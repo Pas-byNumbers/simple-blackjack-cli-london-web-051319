@@ -42,6 +42,8 @@ def hit?
     break
     elsif get_user_input == "h"
     card_total += deal_card
+  end
+  card_total
   
 end
 
