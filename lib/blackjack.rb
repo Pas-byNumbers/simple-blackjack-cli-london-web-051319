@@ -29,9 +29,9 @@ end
 def initial_round
   # code #initial_round here
   deal_card
-  display_card_total
   deal_card
   display_card_total
+  
   
 end
 
