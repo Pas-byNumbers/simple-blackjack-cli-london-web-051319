@@ -52,7 +52,7 @@ end
 def invalid_command
   # code invalid_command here
   puts "That is not a valid command, try again"
-  hit?
+  hit?(card_total)
 end
 
 #####################################################
