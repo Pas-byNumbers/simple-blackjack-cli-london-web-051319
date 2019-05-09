@@ -40,13 +40,6 @@ def hit?
   prompt_user
   get_user_input
   
-  elsif get_user_input == "h"if get_user_input == "s"
-    display_card_total
-  deal_card
-  display_card_total
-  return card_total
-else invalid_command
-end
   
 end
 
