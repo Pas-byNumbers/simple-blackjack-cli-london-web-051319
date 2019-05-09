@@ -4,7 +4,7 @@ end
 
 def deal_card
   current_card = rand.1..11
-  
+  return current_card
 end
 
 def display_card_total
