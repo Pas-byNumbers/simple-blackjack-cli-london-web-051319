@@ -18,7 +18,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  inpit = gets.chomp
+  input = gets.chomp
 end
 
 def end_game(card_total)
@@ -38,9 +38,10 @@ end
 def hit?
   # code hit? here
   prompt_user
-  if get_user_input == "s"
+  get_user_input
+  if input == "s"
     card_total
-    elsif get_user_input == "h"
+    elsif input == "h"
     card_total += deal_card
   end
   card_total
